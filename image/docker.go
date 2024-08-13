@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/khulnasoft-lab/statix/utils"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
 	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/khulnasoft-lab/statix/utils"
 	"golang.org/x/xerrors"
 )
 

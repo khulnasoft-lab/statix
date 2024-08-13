@@ -7,11 +7,11 @@ import (
 
 	"golang.org/x/xerrors"
 
+	"github.com/aquasecurity/go-dep-parser/pkg/php/composer"
 	"github.com/khulnasoft-lab/statix/analyzer"
 	"github.com/khulnasoft-lab/statix/analyzer/language"
 	"github.com/khulnasoft-lab/statix/types"
 	"github.com/khulnasoft-lab/statix/utils"
-	"github.com/aquasecurity/go-dep-parser/pkg/php/composer"
 )
 
 func init() {

@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/xerrors"
 
+	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
+	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
 	"github.com/khulnasoft-lab/statix/analyzer"
 	"github.com/khulnasoft-lab/statix/analyzer/language"
 	"github.com/khulnasoft-lab/statix/types"
-	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
-	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
 )
 
 type mockParser struct {

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-lab/statix/types"
 	"github.com/khulnasoft-lab/nested"
+	"github.com/khulnasoft-lab/statix/types"
 )
 
 type Config struct {

@@ -11,9 +11,9 @@ import (
 	"regexp"
 	"strings"
 
+	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
 	"github.com/khulnasoft-lab/statix/analyzer"
 	"github.com/khulnasoft-lab/statix/types"
-	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
 	"golang.org/x/xerrors"
 )
 

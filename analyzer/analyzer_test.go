@@ -13,10 +13,10 @@ import (
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/xerrors"
 
+	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
 	"github.com/khulnasoft-lab/statix/analyzer"
 	aos "github.com/khulnasoft-lab/statix/analyzer/os"
 	"github.com/khulnasoft-lab/statix/types"
-	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
 
 	_ "github.com/khulnasoft-lab/statix/analyzer/command/apk"
 	_ "github.com/khulnasoft-lab/statix/analyzer/language/ruby/bundler"
