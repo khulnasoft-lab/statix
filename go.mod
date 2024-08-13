@@ -1,6 +1,6 @@
 module github.com/khulnasoft-lab/statix
 
-go 1.23
+go 1.18
 
 require (
 	github.com/Azure/azure-sdk-for-go v65.0.0+incompatible
