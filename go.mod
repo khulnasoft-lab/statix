@@ -29,7 +29,7 @@ require (
 	github.com/opencontainers/image-spec v1.1.0-rc5
 	github.com/samber/lo v1.46.0
 	github.com/saracen/walker v0.0.0-20191201085201-324a081bae7e
-	github.com/sosedoff/gitkit v0.3.0
+	github.com/sosedoff/gitkit v0.4.0
 	github.com/stretchr/testify v1.9.0
 	github.com/testcontainers/testcontainers-go v0.13.0
 	github.com/urfave/cli/v2 v2.25.7
