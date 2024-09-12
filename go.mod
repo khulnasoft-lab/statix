@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/statix
 
-go 1.18
+go 1.22.0
+
+toolchain go1.23.1
 
 require (
 	github.com/Azure/azure-sdk-for-go v65.0.0+incompatible
@@ -26,7 +28,7 @@ require (
 	github.com/moby/buildkit v0.10.3
 	github.com/open-policy-agent/opa v0.60.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/opencontainers/image-spec v1.1.0-rc5
+	github.com/opencontainers/image-spec v1.1.0
 	github.com/samber/lo v1.46.0
 	github.com/saracen/walker v0.0.0-20191201085201-324a081bae7e
 	github.com/sosedoff/gitkit v0.3.0
