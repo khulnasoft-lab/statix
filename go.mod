@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/statix
 
-go 1.18
+go 1.22.0
+
+toolchain go1.23.1
 
 require (
 	github.com/Azure/azure-sdk-for-go v65.0.0+incompatible
@@ -41,7 +43,7 @@ require (
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/sync v0.7.0
 	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028
+	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da
 	gopkg.in/yaml.v3 v3.0.1
 )
 
